@@ -1,4 +1,4 @@
-# EPL Interview Assignment
+# ExtraMarks EPL Interview Assignment
 
 Live Preview (hosted): [Click here](https://epl.fetchmeh.com/) 
 
@@ -7,6 +7,9 @@ Live Preview (hosted): [Click here](https://epl.fetchmeh.com/)
 ## Awesome Frameworks used
 
 ![EPL-Frameworks](https://i.ibb.co/54kqcHZ/tech.png)
+
+## Features
+![EPL-Features](https://i.ibb.co/8NFT9qY/tech-daynight.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
