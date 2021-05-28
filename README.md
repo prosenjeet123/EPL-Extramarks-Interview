@@ -1,6 +1,10 @@
-# EPL
+# EPL Interview Assignment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+
+## Preview EPL in localhost
+
+If you have not installed angular Run `npm i` then `npm start` to start a dev server . Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Development server
 
