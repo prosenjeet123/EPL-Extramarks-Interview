@@ -1,6 +1,21 @@
-# EPL
+# ExtraMarks EPL Interview Assignment
+
+Live Preview (hosted): [Click here](https://epl.fetchmeh.com/) 
+
+![EPL-Angular11](https://i.ibb.co/yk5CwC5/Screenshot-2021-05-29-011522.png)
+
+## Awesome Frameworks used
+
+![EPL-Frameworks](https://i.ibb.co/54kqcHZ/tech.png)
+
+## Features
+![EPL-Features](https://i.ibb.co/8NFT9qY/tech-daynight.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+
+## Preview EPL in localhost
+
+If you have not installed angular Run `npm i` then `npm start` to start a dev server . Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Development server
 
