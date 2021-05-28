@@ -1,5 +1,7 @@
 # EPL Interview Assignment
 
+Live Preview (hosted): [Click here](https://epl.fetchmeh.com/) 
+
 ![EPL-Angular11](https://i.ibb.co/yk5CwC5/Screenshot-2021-05-29-011522.png)
 
 ## Awesome Frameworks used
