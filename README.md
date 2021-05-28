@@ -1,5 +1,11 @@
 # EPL Interview Assignment
 
+![EPL-Angular11](https://i.ibb.co/yk5CwC5/Screenshot-2021-05-29-011522.png)
+
+## Awesome Frameworks used
+
+![EPL-Frameworks](https://i.ibb.co/54kqcHZ/tech.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
 ## Preview EPL in localhost
