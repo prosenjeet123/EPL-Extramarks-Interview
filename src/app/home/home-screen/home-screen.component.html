@@ -1,18 +1,12 @@
 
-
-<!-- https://dev.to/zetareticoli/dark-mode-with-sass-and-css-variables-4f9b -->
-
-<!-- https://github.com/juanmesa2097/angular-boilerplate/tree/main/src -->
-
-
 <div class="container-fluid " [ngClass]="darkDay ? 'darkTheme' : '' ">
   
         <div class="row">
-            <div class="col-md-2 left-nav-bg ">
+            <div class="p-0 col-sm-12 col-md-3 col-lg-3 col-xl-2 left-nav-bg ">
                 <app-left-nav></app-left-nav>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-8">
+            <div class="d-md-none  d-xl-block col-lg-1 col-xl-1"></div>
+            <div class="col-sm-12 col-md-9 col-lg-9 col-xl-8">
               <div class="container home mr-5  ">
 
                     <div class="home__floating-wave-top">
@@ -20,20 +14,20 @@
                     </div>
                   
 
-                <div class="row mt-5">
-                    <div class="col-md-12 mb-4 mt-5">
+                <div class="row mt-3 mt-md-5 mt-lg-5">
+                    <div class="col-md-12 mb-4 mt-3 mt-md-5 mt-lg-5">
                         <div class="d-flex  justify-content-end">
                             <div class="col-md-auto "></div>
                             <div class="col-md-1">
                                
                                 <div class="row text-center justify-content-center">
                                     <div class="col-md-12 justify-content-center">
-                                        <button class="btn rounded-circle border border-dark ">
+                                        <button class="btn rounded-circle border border-dark  epl__home_backbtn">
                                             <i class="uil uil-arrow-left"></i>
                                         </button>
                                     </div>
                                     <div class="col-md-12 justify-content-center">
-                                        <div class="home__back-btn text-center mr-3 text-dark">
+                                        <div class="home__back-btn text-center mr-3 text-dark epl__home_backbtn">
                                             Back
                                         </div>
                                     </div>
@@ -56,8 +50,8 @@
                                         <div class="home__about-topshape ">
                                             <h5 class="fw-bold">EPL</h5>
                                         </div>
-                                      <div class="row">
-                                          <div class="col-md-6">
+                                      <div class="row ">
+                                          <div class="col-md-12 col-lg-6 col-xl-6 home__about-image ">
                                               
                                                 <h6 class="text-start fw-bold">
                                                     About EPL
@@ -72,7 +66,7 @@
                                             
                                               
                                           </div>
-                                          <div class="col-md-6 border-start border-dark mt-4">
+                                          <div class="col-md-12 col-lg-6 col-xl-6 border-start border-dark mt-4 home__about-none ">
                                               <p>EPL is designed by experts. This will test your preparedness, peer ranking and get real time performance analytics.</p>
                                               <ul class="home__about-list">
                                                   <li>Attempt the Extramarks Premier League and have fun attempting cricket related questions.
@@ -93,7 +87,7 @@
                             <div class="col-md-12 mt-4">
 
                                 <div class="row ">
-                                    <div class="col-md-6 mb-4 md-mb-0">
+                                    <div class="col-12 col-md-12 col-lg-12 col-xl-6 mb-4 md-mb-0">
                                         <div class="card card-blue-gr ">
                                             <div class="card-body">
                                                 <div class="row">
@@ -109,10 +103,10 @@
                                                 </div>
 
                                                 <div class="row mt-4">
-                                                    <div class="col-md-5">
-                                                        <img src="assets/img/score.png" alt="EPL scorecard">
+                                                    <div class="col-md-12 col-lg-12 col-xl-5">
+                                                        <img src="assets/img/score.png" class=" mx-auto d-block" alt="EPL scorecard">
                                                     </div>
-                                                    <div class="col-md-7">
+                                                    <div class="mt-md-3 mt-xl-0 col-md-12 col-lg-12 col-xl-7 ">
                                                         <ul class="home__score-list">
                                                             <li><span class="home__score-list-dot-red"></span> 07 Correct Answer</li>
                                                             <li><span class="home__score-list-dot-green"></span> 03 Wrong Answer</li>
@@ -130,7 +124,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 mb-4 md-mb-0">
+                                    <div class="col-12 col-md-12 col-lg-12 col-xl-6  mb-4 md-mb-0">
                                         <div class="card card-blue-gr ">
                                             <div class="card-body">
                                                 <div class="row">
@@ -242,7 +236,7 @@
 
                 <!-- end of containter-->
             </div>
-            <div class="col-md-1"></div>
+            <div class="d-md-none d-xl-block col-lg-1 col-xl-1"></div>
 
            
         </div>

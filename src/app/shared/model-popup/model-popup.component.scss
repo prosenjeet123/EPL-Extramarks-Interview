@@ -68,6 +68,9 @@
                 margin-top: 140px;
                 background: var(--whitebg-color);
                
+                @media(max-width:768px){
+                    margin-top: 10px;
+                }
 
                 .modelScreen2_polygon{
                     background: url('../../../assets/img/polygon.svg');

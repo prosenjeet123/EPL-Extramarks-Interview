@@ -1,14 +1,15 @@
-<div class="leftnav__wrap" [ngClass]="menuStat? '' : 'showFull'">
 
 
-    <div class="row">
+<!-- <div class="leftnav__wrap" [ngClass]="menuStat? '' : 'showFull' "> -->
+<div class="leftnav__wrap" [ngClass]="{ 'showFull' : menuStat === false , 'fixedScroll' : scrolled === true } ">
+    <div class="row" >
         <div class="col-md-12 position-relative leftnav__menu">
-            <button class="btn btn-transparent text-white border-0 fs-3" (click)="onMenu()">
+            <button class="btn btn-transparent text-white  shadow-none border-0 fs-3" (click)="onMenu()">
                 <i class="uil uil-bars"></i>
             </button>
         </div>
 
-        <div class="col-md-12 text-center  mt-4">
+        <div class="col-md-12 text-center  mt-5">
             <img src="assets/img/extramarks-logo.png" alt="extramarks logo" width="100px">
         </div>
         <div class="col-md-12 text-center mt-2">
@@ -92,6 +93,5 @@
             </ul>
         </div>
     </div>
-
     
 </div>

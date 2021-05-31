@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-left-nav',
@@ -8,6 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class LeftNavComponent implements OnInit {
 
   menuStat: boolean = true;
+
+  scrolled: boolean = false;
+
+  @HostListener("window:scroll", [])
+  onWindowScroll(): void {
+    this.scrolled = window.scrollY > 0;
+  }
 
   constructor() { }
 

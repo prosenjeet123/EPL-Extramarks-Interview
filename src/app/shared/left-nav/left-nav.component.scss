@@ -1,13 +1,22 @@
+
 .leftnav__wrap{
 
-    @media (min-width:768px){
-        position: fixed;
+    // @media (min-width:992px){
+    //     position: fixed;
+    //     left: 0;
+    // }
+    .uil-user-circle{
+        @media(max-width:768px){
+            font-size: 4em !important;
+            line-height: 1;
+        }
     }
-
 
     .leftnav__menu{
         z-index: 1 !important;
         border: 0;
+
+
         button{
             @media (min-width:768px) {
                 display: none;
@@ -66,12 +75,38 @@
             background: url('./../../../assets/img/2.png');
             background-repeat: no-repeat;
             background-color: var(--left-nav-bg);
+            padding: 0;
 
             ul.leftnav__menu{
                 overflow: hidden;
                 overflow-y: scroll;
                 height: 342px;
             }
+        }
+
+
+        .leftnav__menu{
+            button{
+                position: fixed !important;
+                width: 100%;
+                text-align: left;
+                background:transparent !important;
+                border-radius: 0;
+            }
+            
+        }
+    }
+
+    &.fixedScroll{
+        .leftnav__menu{
+            button{
+                position: fixed !important;
+                width: 100%;
+                text-align: left;
+                background: rgb(0 0 0 / 29%);
+                border-radius: 0;
+            }
+            
         }
     }
   

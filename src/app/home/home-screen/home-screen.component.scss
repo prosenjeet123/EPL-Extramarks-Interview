@@ -3,7 +3,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-attachment: fixed;
+    background-attachment: scroll;
+
+    @media (max-width:768px){
+        background-attachment: scroll;
+        background-position: bottom;
+        background-size: 100%;
+        background-color: #FFEACB;
+
+        overflow-x: hidden;
+    }
 
     .darkNightbtn{
         position: fixed;
@@ -22,6 +31,13 @@
         }
         &.home{
             padding-bottom: 16vh; 
+        }
+
+        .epl__home_backbtn{
+            @media(max-width:768px){
+                margin-right: -1em;
+            }
+            
         }
         .card-blue-gr{
             &:before{
@@ -52,6 +68,19 @@
                 }
                 &:after{
                     display: none;
+                }
+            }
+
+            .home__about-none{
+                @media(max-width:992px){
+                    border: none !important;
+                }
+            }
+            .home__about-image{
+                @media(max-width:992px){
+                    img{
+                        width: 100%;
+                    }
                 }
             }
         }

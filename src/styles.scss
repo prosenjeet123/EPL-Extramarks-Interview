@@ -83,6 +83,13 @@ body{
    .card-blue-gr{
     background: var(--bg-color);
     background: linear-gradient(90deg, var(--gradient1) 0%,var(--gradient2) 100%);
+    
+    @media(max-width:1200px){
+        min-height: 322px;
+    }
+    img{
+        max-width: 100%;
+    }
    }
    .left-nav-bg{
        background-color: var(--left-nav-bg);
@@ -110,6 +117,10 @@ body{
        .modelScreen2{
            background: none !important;
            background-color: #000 !important;
+       }
+
+       .home__card-cricket-bg{
+           background: #000 !important;
        }
       
 
